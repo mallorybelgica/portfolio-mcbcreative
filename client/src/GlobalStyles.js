@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
 html,
 body,
 div,
@@ -19,8 +19,9 @@ span {
 html, body {
     max-width: 100vw;
     height: 100%;
-    background-color: #F0EBF4;
-    color: #1D314C;
+    background-color: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
     border: 4px solid #F172A1; 
+    transition: all 0.50s linear;
 }
 `;

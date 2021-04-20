@@ -14,13 +14,11 @@ const Projects = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(projects);
-
   return (
     <div>
-      {/* {projects.map((project) => (
-        <ProjectCard project={project} />
-      ))} */}
+      {Object.values(projects).map((project) => (
+        <ProjectCard key={project.name} project={project} />
+      ))}
     </div>
   );
 };

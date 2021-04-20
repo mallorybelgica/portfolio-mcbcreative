@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <h1>Hello, I'm Mallory!</h1>
       <p>
-        I'm a freelance web developer passionate about building websites and
+        I'm a full-stack web developer passionate about building websites and
         apps that are fast, simple and easy to use. People say that everyone has
         at least two careers in their lifetime. After ten years experience in
         product management, I've transitioned into my second career as a web
