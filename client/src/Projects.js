@@ -16,6 +16,7 @@ const Projects = () => {
 
   return (
     <div>
+      <h1>project highlights</h1>
       {Object.values(projects).map((project) => (
         <ProjectCard key={project.name} project={project} />
       ))}

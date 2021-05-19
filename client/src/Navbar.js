@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-
 const Navbar = () => {
-
   return (
     <div>
       <NavLink exact to="/">
@@ -16,5 +14,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
