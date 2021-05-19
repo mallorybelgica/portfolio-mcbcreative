@@ -1,6 +1,6 @@
 [
   {
-    "name": "PairMyWine",
+    "name": "Pair My Wine",
     "tools": ["React", "Redux", "Node", "Express", "MongoDB", "Concordia"],
     "description": [
       "PAIR MY WINE is an app created to recommend the perfect wine pairing your dinner. Users can choose up to three ingredients with an option to include a preparation technique to narrow down to the best possible wine pairing. In addition to the pairing tool, users are able to create their own cellars in which they are able to upload their favorite wines.",

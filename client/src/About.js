@@ -1,9 +1,12 @@
 import React from "react";
+import styled from "styled-components";
 
 const About = () => {
   return (
     <div>
-      <h1>Hello, I'm Mallory!</h1>
+      <Greeting>
+        <Hover>Hello, I'm Mallory!</Hover>
+      </Greeting>
       <p>
         I'm a full-stack web developer passionate about building websites and
         apps that are fast, simple and easy to use. People say that everyone has
@@ -12,7 +15,7 @@ const About = () => {
         developer. My number one mission is to make life simpler and to deliver
         quality work from beginning to end.
       </p>
-      <h2>I'm skilled in...</h2>
+      <Skills>I'm skilled in...</Skills>
       <ul>
         <li>Frontend: React, Redux, Javascript, HTML, CSS</li>
         <li>Backend: Node, Express, MongoDB</li>
@@ -23,3 +26,24 @@ const About = () => {
 };
 
 export default About;
+
+const Greeting = styled.h1`
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.75rem;
+`;
+
+const Skills = styled.h2`
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+`;
+
+const Hover = styled.span`
+  background-image: linear-gradient(to right, transparent 50%, #df2687 50%);
+  background-position: 0;
+  background-size: 200%;
+  transition: all 0.4s;
+  &:hover {
+    color: white;
+    background-position: -100%;
+  }
+`;

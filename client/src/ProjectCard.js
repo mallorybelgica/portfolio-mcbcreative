@@ -1,10 +1,11 @@
 import React from "react";
+import styled from "styled-components";
 
 const ProjectCard = ({ project }) => {
   return (
     <div>
-      <h1>{project.name}</h1>
-      <h2>{project.tools} </h2>
+      <ProjectName>{project.name}</ProjectName>
+      <Tools>{project.tools} </Tools>
       {project.description.map((desc) => (
         <p key={desc}>{desc}</p>
       ))}
@@ -15,3 +16,12 @@ const ProjectCard = ({ project }) => {
 };
 
 export default ProjectCard;
+
+const ProjectName = styled.h1`
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.75rem;
+`;
+
+const Tools = styled.h2`
+  color: #f172a1;
+`;

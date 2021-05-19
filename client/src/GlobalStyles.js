@@ -10,6 +10,12 @@ span {
     border: 0;
     vertical-align: baseline;
 }
+html {
+    border: 8px solid #F172A1; 
+}
+body {
+    margin-top: 50px;
+}
 *,
 *:before,
 *:after {
@@ -19,9 +25,15 @@ span {
 html, body {
     max-width: 100vw;
     min-height: 100vh;
+    padding: 30px;
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    border: 4px solid #F172A1; 
     transition: all 0.50s linear;
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    color: ${({ theme }) => theme.para};
 }
 `;
