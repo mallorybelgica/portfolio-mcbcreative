@@ -18,7 +18,7 @@ const App = () => {
     <BrowserRouter>
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
-        <Button onClick={themeToggler}>
+        <Button theme={theme} onClick={themeToggler}>
           {theme === "light" ? <FiMoon size={25} /> : <FiSun size={25} />}
         </Button>
         <Navbar theme={theme} />
@@ -46,6 +46,8 @@ const Button = styled.button`
   top: 0;
   right: 0;
   z-index: 10;
+  color: ${(props) =>
+    props.theme === "light" ? lightTheme.text : darkTheme.text};
   background-color: transparent;
   border: none;
 `;
