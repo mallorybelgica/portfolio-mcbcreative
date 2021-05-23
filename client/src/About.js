@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const About = () => {
   return (
-    <div>
+    <>
       <Greeting>
         <Hover>Hello, I'm Mallory!</Hover>
       </Greeting>
@@ -21,7 +21,7 @@ const About = () => {
         <li>Backend: Node, Express, MongoDB</li>
         <li>Tools: Git & GitHub</li>
       </ul>
-    </div>
+    </>
   );
 };
 
@@ -35,6 +35,7 @@ const Greeting = styled.h1`
 const Skills = styled.h2`
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
+  color: #df2687;
 `;
 
 const Hover = styled.span`

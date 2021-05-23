@@ -1,22 +1,12 @@
 import React, { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
+import styled from "styled-components";
+import { projects } from "./projectsData";
 
 const Projects = () => {
-  const [projects, setProjects] = useState("");
-
-  useEffect(() => {
-    fetch("/projects")
-      .then((res) => res.json())
-      .then((json) => {
-        console.log(json.data);
-        setProjects(json.data);
-      })
-      .catch((err) => console.log(err));
-  }, []);
-
   return (
     <div>
-      <h1>project highlights</h1>
+      <Highlights>project highlights</Highlights>
       {Object.values(projects).map((project) => (
         <ProjectCard key={project.name} project={project} />
       ))}
@@ -25,3 +15,10 @@ const Projects = () => {
 };
 
 export default Projects;
+
+const Highlights = styled.h1`
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+`;

@@ -11,7 +11,9 @@ span {
     vertical-align: baseline;
 }
 html {
-    border: 8px solid #F172A1; 
+    border: 8px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #ff67a2, #99c4d4, #fb289b);
 }
 body {
     margin-top: 50px;
