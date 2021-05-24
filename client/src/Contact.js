@@ -41,6 +41,12 @@ const Contact = () => {
               @mallorychristy
             </Link>
           </li>
+          <li>
+            Codepen:{" "}
+            <Link href="https://codepen.io/mcbcreative" target="_blank">
+              @mcbcreative
+            </Link>
+          </li>
         </SocialList>
       </RightWrapper>
     </Wrapper>
