@@ -11,7 +11,7 @@ export const projects = [
       "Built wine pairing tool using Javascript.",
       "Built and implemented cellar feature - users are able to save and access all their wines.",
     ],
-    link: "https://github.com/mallorybelgica/pairmywine",
+    link: "https://pairmywine-app.netlify.app/",
   },
   {
     name: "Critter",
