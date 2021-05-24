@@ -13,7 +13,9 @@ const ProjectCard = ({ project }) => {
       {project.description.map((desc) => (
         <Description key={desc}>{desc}</Description>
       ))}
-      <DemoLink href={project.link}>Check out {project.name} ➔</DemoLink>
+      <DemoLink href={project.link} target="_blank">
+        Check out {project.name} ➔
+      </DemoLink>
     </div>
   );
 };
