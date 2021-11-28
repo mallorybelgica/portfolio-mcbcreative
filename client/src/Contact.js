@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <Hello>say hello</Hello>
-      <Email href="mailto:hello@mcbcreative.co">hello@mcbcreative.co</Email>
+      <Email href="mailto:hello@mcbcreative.co">mcbcreativeco@gmail.com</Email>
       <LeftWrapper>
         <Paragraph>
           I love to build things and collaborate on new ideas. If you'd like to
