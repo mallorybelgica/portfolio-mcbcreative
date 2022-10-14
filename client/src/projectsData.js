@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Pair My Wine",
-    tools: ["React", "Redux", "Node", "Express", "MongoDB", "Concordia"],
+    tools: ["React", "Redux", "NodeJS", "Express", "MongoDB", "Concordia"],
     description: [
       "PAIR MY WINE is an app created to recommend the perfect wine pairing your dinner. Users can choose up to three ingredients with an option to include a preparation technique to narrow down to the best possible wine pairing. In addition to the pairing tool, users are able to create their own cellars in which they are able to upload their favorite wines.",
       "This was my final project for Concordia University's web development bootcamp. The frontend is built with React and Redux. While, the backend is built with Node and Express. I built the database on MongoDb on my own based on a poster I found while doing research for my project.",
@@ -14,13 +14,29 @@ export const projects = [
     link: "https://pairmywine-app.netlify.app/",
   },
   {
+    name: "Stylity",
+    tools: [
+      "React Native",
+      "Typescript",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+    ],
+    description: [
+      "Stylity is a little personal project and a throwback to Polyvore that I designed and built. It allows users to create their own mood boards and share them with their friends. They can browse, comment, and like boards across the app.",
+    ],
+    highlights: ["Designed and built front-end and back-end"],
+    link: "https://stylity-demo.netlify.app/",
+  },
+  {
     name: "Critter",
-    tools: ["React", "Node", "Express", "Concordia"],
+    tools: ["React", "NodeJS", "Express", "Concordia"],
     description: [
       "CRITTER is a fun little project I worked on for Concordia Bootcamp, in which I was tasked with recreating the Twitter app. The API and backend code were both provided. Therefore, the frontend was the focus of the project.",
     ],
     highlights: [],
-    link: "https://github.com/cb-nw-4/project-m5-twitter-clone/",
+    link: "https://github.com/mallorybelgica/project-m5-twitter-clone",
   },
   {
     name: "Mr. Nyan Cat",
