@@ -14,6 +14,15 @@ export const projects = [
     link: "https://pairmywine-app.netlify.app/",
   },
   {
+    name: "Typeful",
+    tools: ["React", "Typescript", "Recoil", "HTML", "CSS"],
+    description: [
+      "Typeful is a little personal project created to help you improve your typing. Type out the paragraph on your screen and get your results at end.",
+    ],
+    highlights: [],
+    link: "https://typeful.netlify.app/",
+  },
+  {
     name: "Stylity",
     tools: [
       "React Native",
