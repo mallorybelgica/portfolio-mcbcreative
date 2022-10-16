@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <Wrapper>
       <Hello>say hello</Hello>
-      <Email href="mailto:mcbcreativeco@gmail.com">
-        mcbcreativeco@gmail.com
+      <Email href="mailto:mallorybelgica@gmail.com">
+        mallorybelgica@gmail.com
       </Email>
       <LeftWrapper>
         <Paragraph>
@@ -32,6 +32,7 @@ const Contact = () => {
             </Link>
           </li>
           <li>
+            GitHub:{" "}
             <Link href="https://github.com/mallorybelgica" target="_blank">
               mallorybelgica
             </Link>
