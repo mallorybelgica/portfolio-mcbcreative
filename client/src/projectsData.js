@@ -23,6 +23,15 @@ export const projects = [
     link: "https://typeful.netlify.app/",
   },
   {
+    name: "Feed the Snake",
+    tools: ["React", "Typescript", "HTML", "CSS"],
+    description: [
+      "A fun throwback to the classic Snake game. Use the arrow keys to move your snake around the game board. Feed your snake and watch it grow. Watch out though - don't hit the wall or eat yourself!",
+    ],
+    highlights: [],
+    link: "https://feedthesnake-app.netlify.app",
+  },
+  {
     name: "Stylity",
     tools: [
       "React Native",
