@@ -24,19 +24,22 @@ export default ProjectCard;
 
 const ProjectName = styled.h1`
   font-family: "Montserrat", sans-serif;
-  font-size: 2.75rem;
+  font-size: 32px;
   margin-bottom: 0;
 `;
 
 const Tools = styled.div`
   display: flex;
+  flex-wrap: wrap;
   color: #df2687;
+  margin: 5px 0;
 `;
 
 const Tool = styled.h2`
   color: #df2687;
   margin-top: 0;
   padding-right: 15px;
+  font-size: 21px;
 `;
 
 const Description = styled.p`
@@ -46,7 +49,7 @@ const Description = styled.p`
 const DemoLink = styled.a`
   font-family: "Montserrat", sans-serif;
   color: #0090c5;
-  font-size: 1.15rem;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
 `;

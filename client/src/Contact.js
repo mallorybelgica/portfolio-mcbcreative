@@ -61,25 +61,28 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: 30px;
 `;
 
 const Hello = styled.h1`
   width: 100%;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.7rem;
+  font-size: 28px;
   font-weight: 600;
 `;
 
 const Email = styled.a`
   font-family: "Montserrat", sans-serif;
   color: #df2687;
-  font-size: 5rem;
+  font-size: 48px;
   font-weight: 700;
-  margin-bottom: 25px;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+  }
+  @media (max-width: 480px) {
+    font-size: 21px;
   }
 `;
 
@@ -87,12 +90,19 @@ const LeftWrapper = styled.div`
   width: 50%;
   margin: 0;
   padding-right: 25px;
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const RightWrapper = styled.div`
   width: 50%;
   margin: 0;
   padding-left: 25px;
+  @media (max-width: 480px) {
+    width: 100%;
+    padding-left: 0;
+  }
 `;
 
 const Paragraph = styled.p`
@@ -112,6 +122,7 @@ const SocialList = styled.ul`
   width: 100%;
   margin: 0;
   list-style-type: none;
+  padding-left: 0;
 `;
 
 const Link = styled.a`

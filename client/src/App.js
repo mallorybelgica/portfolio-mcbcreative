@@ -50,4 +50,5 @@ const Button = styled.button`
     props.theme === "light" ? lightTheme.text : darkTheme.text};
   background-color: transparent;
   border: none;
+  cursor: pointer;
 `;

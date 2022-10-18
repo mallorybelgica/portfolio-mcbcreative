@@ -19,6 +19,7 @@ export default Projects;
 const Highlights = styled.h1`
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.7rem;
+  font-size: 28px;
   font-weight: 600;
+  margin-top: 50px;
 `;

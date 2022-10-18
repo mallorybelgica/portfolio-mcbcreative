@@ -25,9 +25,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 html, body {
-    max-width: 100vw;
-    min-height: 100vh;
-    padding: 30px;
+    max-width: 100%;
+    min-height: 100%;
+    padding: 20px;
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     transition: all 0.50s linear;
